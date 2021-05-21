@@ -66,7 +66,6 @@ namespace Souvenir_Narzia
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             new Souvenir_Narzia.Cassa().ShowDialog();
-            this.Close();
         }
     }
 }
