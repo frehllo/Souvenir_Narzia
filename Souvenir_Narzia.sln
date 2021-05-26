@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Souvenir_Narzia", "Souvenir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Souvenir_Classi", "Souvenir_Classi\Souvenir_Classi.csproj", "{711054B3-266E-42DD-B763-B49B1961CDFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biglietteria_Narzia", "Biglietteria_Narzia\Biglietteria_Narzia.csproj", "{904CDCA9-0FB3-41B9-93FC-FD6EC8C1C180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biglietteria_Classi", "Biglietteria_Classi\Biglietteria_Classi.csproj", "{C0949CE6-F442-4D5A-B610-E828F3B6E08B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{711054B3-266E-42DD-B763-B49B1961CDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{711054B3-266E-42DD-B763-B49B1961CDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{711054B3-266E-42DD-B763-B49B1961CDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904CDCA9-0FB3-41B9-93FC-FD6EC8C1C180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904CDCA9-0FB3-41B9-93FC-FD6EC8C1C180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904CDCA9-0FB3-41B9-93FC-FD6EC8C1C180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904CDCA9-0FB3-41B9-93FC-FD6EC8C1C180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0949CE6-F442-4D5A-B610-E828F3B6E08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0949CE6-F442-4D5A-B610-E828F3B6E08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0949CE6-F442-4D5A-B610-E828F3B6E08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0949CE6-F442-4D5A-B610-E828F3B6E08B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
