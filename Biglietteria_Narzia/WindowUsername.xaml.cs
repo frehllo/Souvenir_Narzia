@@ -24,8 +24,8 @@ namespace Biglietteria_Narzia
         {
             InitializeComponent();
         }
-        public string file = @"username.txt";
 
+        public string file = @"username.txt";
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -36,7 +36,7 @@ namespace Biglietteria_Narzia
                 {
                     if(line == username_txt.Text)
                     {
-                        new Biglietteria_Narzia.WindowUsername().ShowDialog();
+                        new Biglietteria_Narzia.StampaTicket(username_txt.Text).ShowDialog();
                         this.Close();
                     }else
                     {

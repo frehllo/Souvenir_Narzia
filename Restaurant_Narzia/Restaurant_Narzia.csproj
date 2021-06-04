@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{904CDCA9-0FB3-41B9-93FC-FD6EC8C1C180}</ProjectGuid>
+    <ProjectGuid>{24A978DA-0C29-4EBE-B01B-9CCF2E235C26}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Biglietteria_Narzia</RootNamespace>
-    <AssemblyName>Biglietteria_Narzia</AssemblyName>
+    <RootNamespace>Restaurant_Narzia</RootNamespace>
+    <AssemblyName>Restaurant_Narzia</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,24 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="StampaTicket.xaml.cs">
-      <DependentUpon>StampaTicket.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SuccesfullAccount.xaml.cs">
-      <DependentUpon>SuccesfullAccount.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WindowAddAccount.xaml.cs">
-      <DependentUpon>WindowAddAccount.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="WindowUsername.xaml.cs">
-      <DependentUpon>WindowUsername.xaml</DependentUpon>
+      <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -100,43 +93,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="MainWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="StampaTicket.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SuccesfullAccount.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WindowAddAccount.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WindowUsername.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="tickets-png.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Biglietteria_Classi\Biglietteria_Classi.csproj">
-      <Project>{c0949ce6-f442-4d5a-b610-e828f3b6e08b}</Project>
-      <Name>Biglietteria_Classi</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="logo_small.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="frame.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
