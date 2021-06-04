@@ -95,7 +95,7 @@
                     <Button Height="25" Width="100" Content="Add"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <ListBox x:Name="lst_ordine" Height="120" Width="300"></ListBox>
+                    <ListBox x:Name="lst_ordine" Height="80" Width="300"></ListBox>
                 </StackPanel>
                 <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Button Content="Send" Height="30" Width="120"></Button>
