@@ -24,35 +24,31 @@
                 </Grid.RowDefinitions>
                 <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://sangifood.it/wp-content/uploads/2017/10/IMMAGINO_IMMAGINO_EAN80007814_1_renditions_600x600.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://www.rocchetta.it/wp-content/uploads/2021/01/rocchetta.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_1"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Height="120" Source="https://lh3.googleusercontent.com/proxy/6f1J2FZhh1ufrCU0pItwbbqYOk1PSd0MYxb29lwt4z_4O4X7oA9iMDB6m0CFntoDWKiGnxpy5lgRaVAalgivhuRdpkQQG0pUwf2LvyWU7mdV14OOmp6P7Bp5bjGVZNiphYu9kSP4KfQ_"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Image Height="120" Source="https://www.velenosivini.com/wp-content/uploads/2020/05/linea-bio-rosso-piceno-superiore.png"/>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_2"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="0" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Height="120" Source="https://www.rocchetta.it/wp-content/uploads/2021/01/rocchetta.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
-                </StackPanel>
-                <StackPanel Grid.Row="0" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Height="120" Source="https://www.rocchetta.it/wp-content/uploads/2021/01/rocchetta.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Image Height="120" Source="http://pngimg.com/uploads/cocacola/cocacola_PNG21.png"/>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_3"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://banner2.cleanpng.com/20180510/ktw/kisspng-bruschetta-toast-recipe-antipasto-5af4f4fcf23f98.4219969115260029409923.jpg"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_4"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://banner2.cleanpng.com/20190223/bay/kisspng-bruschetta-hors-doeuvre-pizza-toast-pesto-chili-pizza-5c70e75b5a6ab9.7397083015509031313704.jpg"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_5"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://www.blufoodbroker.it/wp-content/uploads/2018/06/SALAMI-600x600.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_6"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="1" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://www.kindpng.com/picc/m/430-4306145_diced-tomato-pappa-al-pomodoro-hd-png-download.png"/>
@@ -60,45 +56,47 @@
                 </StackPanel>
                 <StackPanel Grid.Row="1" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://www.kindpng.com/picc/m/430-4306145_diced-tomato-pappa-al-pomodoro-hd-png-download.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_7"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Height="120" Source="https://www.pngitem.com/pimgs/m/114-1147178_italian-pasta-png-download-pasta-carbonara-png-transparent.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Image Height="120" Source="https://www.pngitem.com/pimgs/m/144-1447686_pasta-png-images-free-pasta-alla-carbonara-png.png"/>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_8"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://pngimg.com/uploads/pasta/pasta_PNG58.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_9"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Height="120" Source="https://lh3.googleusercontent.com/proxy/A523bXPEmnVq-frUVbmcwKVzBbaq6WpBhYE9O6JEUhL8Q01JO5CtmCo9maHwbJi7w5d6oYow1W-0b-2TfyERpToVBmk6baNpy1XVvk7rmdMfRf4HN_dvD7q3"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Image Height="120" Source="https://www.vhv.rs/dpng/d/432-4321897_pasta-png-file-top-view-italian-pasta-png.png"/>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_10"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Height="120" Source="https://www.kindpng.com/picc/m/61-618595_pasta-png-chicken-pasta-png-transparent-png.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Image Height="120" Source="https://carusopizza.cz/280-large_default/tagliatelle-bolognese.jpg"/>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_11"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="http://macelleriamarcoelisa.com/wp-content/uploads/2014/08/Mb-costata-di-Black-Angus-a-610x400.jpg"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_12"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://www.prontospesa.it/Img/Cat/Big/50695.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_13"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Image Height="120" Source="https://lh3.googleusercontent.com/proxy/oTdyT7GuF8FXGGJKx5VlVgRgD63KPzKOmcrTOo5GvXJFfCxc6HZMyfX1p0eWrKGKHTuuOkkIAujc0RKyMWTjkhef_g8oM8oljNNpsrG728qJOapQKGgUbz-BWd4tREb2TSGBAKODQzrr16BWkhegF9E2WQ"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Image Height="120" Source="https://banner2.cleanpng.com/20180612/skk/kisspng-barbecue-grilling-stock-photography-steak-meat-wein-5b1ffd8a23a102.4004033215288231781459.jpg"/>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_14"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="3" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <Image Height="120" Source="https://www.romacash.it/wp-content/uploads/2020/04/patatine-fritt.png"/>
-                    <Button Height="25" Width="100" Content="Add"></Button>
+                    <Button Height="25" Width="100" Content="Add" Click="Button_Click_15"></Button>
                 </StackPanel>
                 <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <ListBox x:Name="lst_ordine" Height="80" Width="300"></ListBox>
                 </StackPanel>
                 <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <Button Content="Send" Height="30" Width="120"></Button>
+                    <Button Content="Send" Height="30" Width="120" Click="Button_Click_16"></Button>
+                    <Label x:Name="lbl_sender" FontSize="10" Foreground="Red" Height="22" Content=""></Label>
+                    <Button Content="Cancel" Height="30" Width="120" Margin="0,5,0,0" Click="Button_Click_17"></Button>
                 </StackPanel>
             </Grid>
         </ScrollViewer>
